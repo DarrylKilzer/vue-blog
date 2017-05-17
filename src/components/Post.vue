@@ -10,13 +10,13 @@
 import {store} from '../assets/store/data-store'
 export default{
   name: 'blogs',
-  data(){
+  data () {
     return {
       blogs: store.getBlogs(),
       name: '',
       body: ''
     }
-  },
+  }
 }
 </script>
 
